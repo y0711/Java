@@ -1,5 +1,6 @@
 # JNI的用法
-### Java Native Interface，是Java与本地代码库（C/C++）相互调用的接口。
+### Java Native Interface
+* 是Java与本地代码库（C/C++）相互调用的接口。
 ### 实现Hello World
 * 在java文件里([JniTest.java](https://github.com/y0711/Java/blob/master/JniTest.java))load native库，并声明native函数，然后调用它
 * 编译生成JniTest.class文件：javac JniTest.java
